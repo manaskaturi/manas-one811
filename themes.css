@@ -1,0 +1,47 @@
+/* =========================================================
+   THEMES — every colour in the app comes from these variables.
+   To add a theme: copy a block, rename data-theme, change values,
+   then add it to NX.themes in js/store.js.
+   ========================================================= */
+:root, [data-theme="ember"] {          /* Obsidian Ember — black + molten orange */
+  --bg: #050505; --bg2: #0d0b0a; --surface: rgba(22,18,16,.72); --line: rgba(255,140,60,.14);
+  --text: #f3ece6; --dim: #8a7f77; --a1: #ff6a1a; --a2: #ffb347; --glow: rgba(255,106,26,.45);
+}
+[data-theme="chrome"] {                /* Midnight Chrome — graphite + ice silver */
+  --bg: #040506; --bg2: #0a0c0f; --surface: rgba(18,21,25,.72); --line: rgba(190,210,230,.13);
+  --text: #eef2f6; --dim: #7c8590; --a1: #cfd8e3; --a2: #7aa2c8; --glow: rgba(180,205,230,.35);
+}
+[data-theme="bloodmoon"] {             /* Blood Moon — void + crimson */
+  --bg: #050203; --bg2: #0e0507; --surface: rgba(26,10,13,.72); --line: rgba(255,40,70,.15);
+  --text: #f6e9eb; --dim: #8d7176; --a1: #ff2846; --a2: #ff7a8a; --glow: rgba(255,40,70,.45);
+}
+[data-theme="abyss"] {                 /* Abyss — deep ocean + cyan bioluminescence */
+  --bg: #02050a; --bg2: #051019; --surface: rgba(8,20,30,.72); --line: rgba(0,220,255,.14);
+  --text: #e4f6fb; --dim: #6c8a96; --a1: #00e0ff; --a2: #3dffc5; --glow: rgba(0,224,255,.4);
+}
+[data-theme="venom"] {                 /* Venom — carbon + toxic green */
+  --bg: #030503; --bg2: #080d08; --surface: rgba(14,22,14,.72); --line: rgba(120,255,80,.14);
+  --text: #ecf6e8; --dim: #78886f; --a1: #8cff3c; --a2: #d4ff6a; --glow: rgba(140,255,60,.38);
+}
+[data-theme="royale"] {                /* Noir Royale — black + liquid gold */
+  --bg: #050403; --bg2: #0d0a05; --surface: rgba(24,19,11,.72); --line: rgba(230,190,90,.16);
+  --text: #f7efdd; --dim: #8f8366; --a1: #e8b84a; --a2: #fff0b8; --glow: rgba(232,184,74,.4);
+}
+[data-theme="ultraviolet"] {           /* Ultraviolet — night + electric violet/pink */
+  --bg: #040309; --bg2: #0b0816; --surface: rgba(20,15,34,.72); --line: rgba(190,110,255,.16);
+  --text: #f1eafc; --dim: #857c99; --a1: #b46bff; --a2: #ff5fd2; --glow: rgba(180,107,255,.42);
+}
+
+[data-theme="paper"] { --bg:#f3f5f8; --bg2:#e8edf4; --surface:rgba(255,255,255,.86); --line:rgba(30,45,70,.12); --text:#172033; --dim:#687386; --a1:#3457d5; --a2:#7592f2; --glow:rgba(52,87,213,.18); }
+[data-theme="sand"] { --bg:#f4efe6; --bg2:#e9dfd0; --surface:rgba(255,252,246,.88); --line:rgba(90,60,35,.14); --text:#29231e; --dim:#817568; --a1:#9a5b2e; --a2:#d69b68; --glow:rgba(154,91,46,.18); }
+[data-theme="mint"] { --bg:#eaf6f1; --bg2:#dceee6; --surface:rgba(255,255,255,.84); --line:rgba(20,90,70,.13); --text:#183b35; --dim:#638078; --a1:#167c68; --a2:#5bb69d; --glow:rgba(22,124,104,.16); }
+[data-theme="arctic"] { --bg:#07121c; --bg2:#0d202e; --surface:rgba(17,39,54,.82); --line:rgba(114,214,255,.16); --text:#e8f7ff; --dim:#86a8b9; --a1:#72d6ff; --a2:#d5f5ff; --glow:rgba(114,214,255,.22); }
+[data-theme="forest"] { --bg:#06110d; --bg2:#0c1d15; --surface:rgba(18,39,28,.82); --line:rgba(103,214,160,.15); --text:#e9f8ef; --dim:#86a895; --a1:#67d6a0; --a2:#c2f2d7; --glow:rgba(103,214,160,.2); }
+[data-theme="copper"] { --bg:#130b08; --bg2:#21120c; --surface:rgba(42,25,17,.82); --line:rgba(217,139,98,.16); --text:#fff0e7; --dim:#ad8a78; --a1:#d98b62; --a2:#ffd0a8; --glow:rgba(217,139,98,.2); }
+
+[data-theme="titanium"] { --bg:#f2f3f5; --bg2:#e5e7eb; --surface:rgba(255,255,255,.88); --line:rgba(20,30,45,.12); --text:#1b2029; --dim:#69717d; --a1:#555d68; --a2:#aab1bb; --glow:rgba(85,93,104,.16); }
+[data-theme="glacier"] { --bg:#edf5ff; --bg2:#dceaff; --surface:rgba(255,255,255,.86); --line:rgba(36,99,168,.13); --text:#122b49; --dim:#647d9a; --a1:#2463a8; --a2:#6ea8e8; --glow:rgba(36,99,168,.17); }
+[data-theme="lavender"] { --bg:#f3efff; --bg2:#e8e0ff; --surface:rgba(255,255,255,.86); --line:rgba(114,86,200,.14); --text:#30234f; --dim:#7b7095; --a1:#7256c8; --a2:#b49bea; --glow:rgba(114,86,200,.17); }
+[data-theme="rose"] { --bg:#fff0f2; --bg2:#f8dfe5; --surface:rgba(255,255,255,.88); --line:rgba(189,82,107,.14); --text:#48202d; --dim:#98717b; --a1:#bd526b; --a2:#e89bab; --glow:rgba(189,82,107,.16); }
+[data-theme="citrus"] { --bg:#f5f7e8; --bg2:#e9edcf; --surface:rgba(255,255,255,.84); --line:rgba(110,133,36,.14); --text:#293411; --dim:#77835b; --a1:#6e8524; --a2:#b7c96b; --glow:rgba(110,133,36,.16); }
+[data-theme="ocean"] { --bg:#e9f5f7; --bg2:#d8ebef; --surface:rgba(255,255,255,.86); --line:rgba(22,125,145,.14); --text:#153b4a; --dim:#64818b; --a1:#167d91; --a2:#69b8c5; --glow:rgba(22,125,145,.16); }
